@@ -1,0 +1,35 @@
+body {
+  font: 100% Raleway, sans-serif; }
+
+#sidebar .list-group {
+  background-color: white;
+  align-items: center;
+  -webkit-box-align: center; }
+  #sidebar .list-group a {
+    min-width: 150px;
+    margin-bottom: 10px; }
+    @media screen and (max-width: 768px) {
+      #sidebar .list-group a a {
+        min-width: 65px; } }
+  #sidebar .list-group a:last-of-type {
+    margin-bottom: 0; }
+  #sidebar .list-group .svg-inline--fa {
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+    @media screen and (max-width: 768px) {
+      #sidebar .list-group .svg-inline--fa .svg-inline--fa {
+        min-width: 65px; } }
+#sidebar .list-group-item {
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: inline-table; }
+  @media screen and (max-width: 768px) {
+    #sidebar .list-group-item .list-group-item {
+      padding: .85rem .55rem; } }
+
+.card .card-body {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

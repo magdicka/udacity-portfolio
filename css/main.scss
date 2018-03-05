@@ -1,0 +1,49 @@
+
+
+body {
+    font: 100% Raleway, sans-serif;
+}
+  #sidebar {
+    .list-group {
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      -webkit-box-align: center;
+      & a {
+        min-width: 150px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 768px) {
+          & a {
+            min-width: 65px;
+          }
+        }
+      }
+      & a:last-of-type {
+        margin-bottom: 0;
+      }
+      .svg-inline--fa {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        @media screen and (max-width: 768px) {
+          .svg-inline--fa {
+            min-width: 65px;
+          }
+      }
+    }
+    }
+    .list-group-item{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      text-align: center;
+      display: inline-table;
+      @media screen and (max-width: 768px) {
+        .list-group-item {
+          padding: .85rem .55rem;
+        }
+    }}
+  }
+  .card {
+      .card-body {
+        text-align: center;
+      }
+  }
